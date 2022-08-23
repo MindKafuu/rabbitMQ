@@ -1,0 +1,2 @@
+aio-pika
+autopep8>=1.7.0
