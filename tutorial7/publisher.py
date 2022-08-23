@@ -4,7 +4,7 @@ import aio_pika
 
 async def main() -> None:
     connection = await aio_pika.connect_robust(
-        'amqp://guest:guest@10.131.200.163:5672/'
+        'URL'
     )
 
     async with connection:
